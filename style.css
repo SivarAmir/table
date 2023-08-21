@@ -1,0 +1,231 @@
+
+
+body{
+    padding: 0 15%;
+}
+
+h2{
+    text-align: center;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* padding: 5px 20px; */
+}
+
+
+
+th{
+    background-color: gainsboro;
+}
+
+.table-one-two,.table-three-four{
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-one{
+    display: flex;
+    margin-top:40px;
+}
+
+.table-one table{
+    margin-right:20px ;
+    text-align: center;
+}
+
+.table-one table th {
+    width: 100px;
+}
+
+.table-one table td {
+    width: 150px;
+}
+
+
+
+
+.table-two table ,.table-four table,.table-five table{
+    margin-top: -15px;
+}
+
+
+.table-two th , .table-two td{
+    padding: 15px 0;
+}
+
+.table-two table th {
+    text-align: center;
+    width: 100px;
+}
+
+.table-two table td {
+    width: 150px;
+}
+
+.date{
+    text-align: center;
+}
+
+.table-three-four{
+    margin-top: 50px;
+    display: flex;
+}
+
+.table-three-four .table-three table, 
+.table-three-four .table-three table td,
+.table-three-four .table-three table tr{
+    border: none !important;
+    padding: 10px;
+    padding-right: 5px;
+}
+
+.table-three-four table th{
+    padding: 10px;
+    padding-right: 5px;
+}
+
+.table-three-four .table-four table td{
+    padding: 20px;
+    padding-right: 5px; 
+}
+
+.table-five table{
+    width: 100%;
+}
+
+.table-five table th, .table-five table td{
+    padding: 20px 40px;
+}
+
+.table-six table td, .table-six table th{
+    padding: 10px 20px;
+}
+
+.table-six-seven{
+    display: flex;
+}
+
+.table-seven{
+    margin-top: 5px;
+    width: 60%;
+}
+
+.table-seven h3 {
+    margin-top: 88px;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+.table-seven table{
+    margin-top: -15px;
+    width: 100%;
+    border-bottom: none !important;
+}
+
+.table-six-seven table td , .table-six-seven table th{
+    text-align: center;
+    padding: 10.4px 10px 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Date {
+    word-spacing: 20px;
+}
+.content h3{
+    margin-bottom: 0;
+}
+
+
+
+
+
+@media print {
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    table, tr, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px;
+    }
+
+    th {
+        background-color: gainsboro;
+    }
+
+    .table-one {
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .table-one table th,
+    .table-one table td {
+        width: auto;
+    }
+
+    .table-two table,
+    .table-four table,
+    .table-five table {
+        margin-top: -8px;
+    }
+
+    .table-five table th,
+    .table-five table td {
+        padding: 8px;
+    }
+
+    .table-six table td,
+    .table-six table th {
+        padding: 6px;
+    }
+
+    .table-seven h3 {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .table-seven table {
+        margin-top: -8px;
+        width: 100%;
+        border-bottom: none !important;
+    }
+
+    .table-seven table td,
+    .table-seven table th {
+        text-align: center;
+        padding: 13.5px 10px;
+    }
+
+    .temp td{
+        padding: 23.9px !important;
+    }
+
+    .Date {
+        word-spacing: 8px;
+    }
+
+    .content h3 {
+        margin-bottom: 0;
+    }
+
+    .table-four{
+        width: 50%;
+        align-items: end;
+    }
+
+}
+
